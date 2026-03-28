@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Merci 🙏</title>
-  <link rel="stylesheet" href="../style.css?v=6">
+  <title>Excellent</title>
+  <link rel="stylesheet" href="../style.css?v=7">
 </head>
 <body>
   <div class="container">
@@ -12,20 +12,44 @@
 
     <h1>Merci beaucoup 🙏</h1>
     <p class="subtitle">
-      Votre avis compte énormément.  
-      Où souhaitez-vous le partager ?
+      Qu’est-ce qui vous a plu ?
     </p>
 
-    <div class="buttons">
-      <p class="note">Recommandé ⭐</p>
-      <a href="https://TON-LIEN-GOOGLE" class="btn good">
-        ⭐ Publier sur Google
-      </a>
+    <form class="form-box">
+      <label class="check-item">
+        <input type="checkbox" name="liked" value="Accueil">
+        Accueil
+      </label>
 
-      <a href="https://TON-LIEN-APPLE" class="btn neutral">
-        🍏 Publier sur Apple Plans
-      </a>
-    </div>
+      <label class="check-item">
+        <input type="checkbox" name="liked" value="Service">
+        Service
+      </label>
+
+      <label class="check-item">
+        <input type="checkbox" name="liked" value="Food">
+        Food
+      </label>
+
+      <label class="check-item">
+        <input type="checkbox" name="liked" value="Autre">
+        Autre
+      </label>
+
+      <p class="subtitle" style="margin-top: 18px; margin-bottom: 10px;">
+        Où souhaitez-vous publier votre avis ?
+      </p>
+
+      <div class="buttons">
+        <a href="https://www.google.com" target="_blank" class="btn good">
+          ⭐ Google
+        </a>
+
+        <a href="https://maps.apple.com" target="_blank" class="btn apple">
+          🍏 Apple Plans
+        </a>
+      </div>
+    </form>
 
     <a href="../index.html" class="link-secondary">← Retour</a>
   </div>
