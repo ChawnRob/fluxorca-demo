@@ -75,7 +75,7 @@ h1 {
 }
 
 .bad {
-  background: linear-gradient(135deg, #ff5b5b, #d63d3d);
+  background: linear-gradient(135deg, #e57373, #c94c4c);
 }
 
 .neutral {
@@ -83,7 +83,7 @@ h1 {
 }
 
 .good {
-  background: linear-gradient(135deg, #18d39a, #0aa874);
+  background: linear-gradient(135deg, #2af598, #00c9a7);
 }
 
 .note {
