@@ -213,14 +213,18 @@ button.btn {
   text-align: left;
 }
 
-.royal {
-  background: linear-gradient(135deg, #4169e1, #2747b8);
-}
 
 .softblue {
   background: linear-gradient(135deg, #7db7ff, #5d93d9);
 }
 
-.sadorange {
-  background: linear-gradient(135deg, #d89a4a, #b87333);
+
+.reconnect {
+  background: linear-gradient(135deg, #c8e96b, #7fcf5f);
+  color: #10210f;
+}
+
+.deepred {
+  background: linear-gradient(135deg, #8e2f2f, #5f1d1d);
+  color: #ffffff;
 }
