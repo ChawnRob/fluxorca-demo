@@ -172,4 +172,7 @@ button.btn {
 .form-box {
   text-align: left;
 }
+  apple {
+  background: linear-gradient(135deg, #4169e1, #2747b8);
+}
 }
