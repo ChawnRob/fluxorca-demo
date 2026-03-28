@@ -172,7 +172,15 @@ button.btn {
 .form-box {
   text-align: left;
 }
-  apple {
+
+.royal {
   background: linear-gradient(135deg, #4169e1, #2747b8);
 }
+
+.softblue {
+  background: linear-gradient(135deg, #7db7ff, #5d93d9);
+}
+
+.sadorange {
+  background: linear-gradient(135deg, #d89a4a, #b87333);
 }
