@@ -28,14 +28,54 @@ body {
   backdrop-filter: blur(10px);
 }
 
-.logo {
-  font-size: 12px;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
-  color: #8fd8ff;
-  margin-bottom: 14px;
+.trust-row {
+  margin-top: 22px;
+  text-align: center;
 }
 
+.trust-text {
+  font-size: 12px;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 34px;
+  padding: 0 12px;
+
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+
+  backdrop-filter: blur(6px);
+}
+
+/* Couleurs branding */
+.logo-item.google {
+  color: #34a853;
+}
+
+.logo-item.apple {
+  color: #7db7ff;
+}
+
+.logo-item.trustpilot {
+  color: #00b67a;
+}
 h1 {
   margin: 0 0 12px;
   font-size: 30px;
