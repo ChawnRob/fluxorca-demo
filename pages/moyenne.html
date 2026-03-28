@@ -3,19 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Retour moyen</title>
-  <link rel="stylesheet" href="../style.css?v=4">
+  <title>Moyenne</title>
+  <link rel="stylesheet" href="../style.css?v=10">
 </head>
 <body>
   <div class="container">
     <div class="logo">FLUXORCA</div>
-    <h1>Votre avis compte 🙏</h1>
-    <p class="subtitle">Souhaitez-vous rendre votre retour public ou privé ?</p>
 
-    <div class="buttons">
-      <a href="public.html" class="btn neutral">🌍 Public</a>
-      <a href="prive.html" class="btn neutral">🔒 Privé</a>
-    </div>
+    <h1>Votre avis compte 🙏</h1>
+    <p class="subtitle">Qu’est-ce qu’on peut améliorer ?</p>
+
+    <form class="form-box">
+      <label class="check-item"><input type="checkbox" name="improve" value="Accueil"> Accueil</label>
+      <label class="check-item"><input type="checkbox" name="improve" value="Service"> Service</label>
+      <label class="check-item"><input type="checkbox" name="improve" value="Food"> Food</label>
+      <label class="check-item"><input type="checkbox" name="improve" value="Autre"> Autre</label>
+
+      <textarea name="message" placeholder="Expliquez votre ressenti..."></textarea>
+
+      <p class="subtitle" style="margin-top:18px;">Que souhaitez-vous faire ensuite ?</p>
+
+      <div class="buttons">
+        <a href="https://www.trustpilot.com" target="_blank" class="btn good">🌍 Public</a>
+        <button type="submit" class="btn softblue">🔒 Privé</button>
+      </div>
+    </form>
 
     <a href="../index.html" class="link-secondary">← Retour</a>
   </div>
