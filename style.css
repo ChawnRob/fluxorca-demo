@@ -287,4 +287,7 @@ a[href*="review"]:hover {
 }
 
 .action-btn.contact { ... }
-.action-btn.public { ... }                     
+.action-btn.public { ... }   
+.action-btn { 
+  background: red !important;
+}
