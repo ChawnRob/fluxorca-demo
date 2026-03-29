@@ -285,3 +285,6 @@ a[href*="review"]:hover {
 .btn-public:hover {
   background: #e28600;
 }
+
+.action-btn.contact { ... }
+.action-btn.public { ... }                     
