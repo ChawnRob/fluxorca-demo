@@ -228,3 +228,61 @@ button.btn {
   background: linear-gradient(135deg, #8e2f2f, #5f1d1d);
   color: #ffffff;
 }
+  /* BAD PAGE - actions */
+.bad-actions .btn-contact,
+.bad-page .btn-contact,
+a[href*="contact"] {
+  background: #8b1e1e;
+  border-color: #b12a2a;
+  color: #fff;
+  box-shadow: 0 0 18px rgba(177, 42, 42, 0.28);
+}
+
+.bad-actions .btn-contact:hover,
+.bad-page .btn-contact:hover,
+a[href*="contact"]:hover {
+  background: #a32626;
+  border-color: #d13a3a;
+}
+
+/* Publier en public = orange */
+.bad-actions .btn-public,
+.bad-page .btn-public,
+a[href*="google"],
+a[href*="review"] {
+  background: #c87400;
+  border-color: #f39a16;
+  color: #fff;
+  box-shadow: 0 0 18px rgba(243, 154, 22, 0.30);
+}
+
+.bad-actions .btn-public:hover,
+.bad-page .btn-public:hover,
+a[href*="google"]:hover,
+a[href*="review"]:hover {
+  background: #e28600;
+  border-color: #ffb347;
+}
+  /* rouge */
+.btn-contact {
+  background: #8b1e1e;
+  border: 1px solid #b12a2a;
+  color: #fff;
+  box-shadow: 0 0 18px rgba(177, 42, 42, 0.28);
+}
+
+/* orange */
+.btn-public {
+  background: #c87400;
+  border: 1px solid #f39a16;
+  color: #fff;
+  box-shadow: 0 0 18px rgba(243, 154, 22, 0.30);
+}
+
+.btn-contact:hover {
+  background: #a32626;
+}
+
+.btn-public:hover {
+  background: #e28600;
+}
