@@ -291,3 +291,153 @@ a[href*="review"]:hover {
 .action-btn { 
   background: red !important;
 }
+
+
+  /* ===== BAD FLOW CLEAN ===== */
+
+.bad-page .container,
+.thankyou-page.container {
+  max-width: 680px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.check-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #f5f5f5;
+  font-size: 1rem;
+  text-align: left;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.check-item input[type="checkbox"] {
+  transform: scale(1.15);
+  accent-color: #ff5a5a;
+}
+
+textarea {
+  width: 100%;
+  min-height: 130px;
+  resize: vertical;
+  padding: 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(10,10,10,0.6);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+textarea::placeholder {
+  color: rgba(255,255,255,0.45);
+}
+
+.bad-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.action-btn,
+.channel-btn,
+.main-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 14px 20px;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.25s ease;
+  cursor: pointer;
+}
+
+.btn-contact {
+  background: #8b1e1e;
+  color: #fff;
+  border: 1px solid #b12a2a;
+  box-shadow: 0 0 18px rgba(177, 42, 42, 0.28);
+}
+
+.btn-contact:hover {
+  background: #a32626;
+  transform: translateY(-1px);
+}
+
+.btn-public {
+  background: #c87400;
+  color: #fff;
+  border: 1px solid #f39a16;
+  box-shadow: 0 0 18px rgba(243, 154, 22, 0.30);
+}
+
+.btn-public:hover {
+  background: #e28600;
+  transform: translateY(-1px);
+}
+
+.channel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.channel-btn {
+  width: 100%;
+  background: rgba(255,255,255,0.05);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.channel-btn:hover {
+  background: rgba(255,255,255,0.10);
+  transform: translateY(-1px);
+}
+
+.main-btn {
+  margin: 28px auto 0;
+  background: #8b1e1e;
+  color: #fff;
+  border: 1px solid #b12a2a;
+  width: fit-content;
+}
+
+.link-secondary {
+  display: block;
+  width: fit-content;
+  margin: 26px auto 0;
+  color: #d9d9d9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link-secondary:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .action-btn,
+  .channel-btn,
+  .main-btn {
+    width: 100%;
+  }
+
+  .bad-actions {
+    flex-direction: column;
+  }
+}
